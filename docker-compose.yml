@@ -4,7 +4,7 @@ services:
         container_name: dsm
         image: vdsm/virtual-dsm:latest
         environment:
-            DISK_SIZE: "16G"
+            DISK_SIZE: "100G"
         devices:
             - /dev/kvm
         cap_add:
